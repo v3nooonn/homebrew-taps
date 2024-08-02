@@ -5,11 +5,11 @@
 class St3llar < Formula
   desc ""
   homepage "https://github.com/v3nooonn/st3llar-helper/tree/main/st3llar"
-  version "0.0.2"
+  version "0.0.1"
   depends_on :macos
 
-  url "https://github.com/v3nooonn/st3llar-helper/releases/download/v0.0.2/st3llar-helper_Darwin_all.tar.gz"
-  sha256 "cfe149a465c4c02bffe2e463a99babacdab040aa9e5421bb4bd85bdd268fdee9"
+  url "https://github.com/v3nooonn/st3llar-helper/releases/download/v0.0.1/st3llar-helper_Darwin_all.tar.gz"
+  sha256 "a6aa3297dda2335cf21fdeae154a397d1fa68287c3bc5e0ddb49f670b0430be2"
 
   def install
     bin.install "st3llar-helper"
